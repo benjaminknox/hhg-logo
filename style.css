@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'Museo Slab';
+  src: url('fonts/museo-slab.otf');
+}
+
+html, body {
+  background: #000;
+  font-family: Museo Slab;
+}
+
+#handy-logo-animation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  transform: translate(-50%, -41%);
+}
+
+#handy-logo-animation h3 {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 31px;
+  color: #FFF;
+}
+
+#handy-logo-animation h3 span.block {
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: normal!important;
+  white-space: nowrap;
+  opacity: .8;
+}
+
+#handy-logo-animation * {
+  margin: 0;
+  padding: 0;
+}
+
+#handy-logo-svg {
+  position: relative;
+}
+
+#logo-a-home,
+#logo-a-lawn {
+  position: absolute;
+  top: 0;
+  left: 20%;
+}
+
+#text-underneath {
+  display: flex;
+  margin-top:2%;
+}
+
+#animation {
+  width: 51%;
+  padding-right: 2%;
+  position: relative;
+  margin-top: 1px;
+}
+
+#lawn-text {
+  position: absolute;
+  top: 0;
+  left: -1px;
+  width: 96%;
+}
+
+#guys-text {
+    width: 44.5%;
+    padding-left: 2.5%;
+}
+
+@media screen and (min-width: 992px) {
+  #handy-logo-animation {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 767px), screen and (max-height: 510px) {
+  #handy-logo-animation h3 {
+    margin-top: 16px;
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  #handy-logo-animation h3 {
+    margin-top: 20px;
+  }
+
+  #handy-logo-animation h3 span.block {
+    display: block;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 396px) {
+  #lawn-text {
+    top: 2px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #handy-logo-animation h3 span.block {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  #handy-logo-animation h3 span.block {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  #handy-logo-animation h3 span.block {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-height: 510px) {
+  #handy-logo-animation {
+    transform: translate(-50%, -30%);
+    width: 50%;
+  }
+}
+
+@media screen and (max-height: 370px) {
+  #handy-logo-animation {
+    width: 40%;
+  }
+}
